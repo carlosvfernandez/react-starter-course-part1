@@ -1,0 +1,25 @@
+{
+  "name": "react-stater-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://carlosvfernandez:Carlitros1242.@github.com/carlosvfernandez/react-stater-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosvfernandez/react-stater-course/issues"
+  },
+  "homepage": "https://github.com/carlosvfernandez/react-stater-course#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
