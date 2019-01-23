@@ -1,7 +1,7 @@
-import ComponentClass from '../components/ComponentClass'
 import Header from '../components/common/Header'
 import { bioloyPupils, mathPupils } from '../data/pupils'
 import TitleBar from '../components/common/TitleBar'
+import ClassComponent from '../components/ClassComponent';
 
 export default () => (
     <div>
@@ -9,8 +9,8 @@ export default () => (
         <TitleBar />
         <h1 style={{ textAlign: "center" }}>Plan Courses</h1>
         <div style={{ display: "flex", justifyContent: "space-around" }}>
-            <ComponentClass ClassName="Biology" pupils={bioloyPupils} />
-            <ComponentClass ClassName="Math" pupils={mathPupils} />
+            <ClassComponent ClassName="Biology" pupils={bioloyPupils} />
+            <ClassComponent ClassName="Math" pupils={mathPupils} />
         </div>
         <style jsx global>
             {
